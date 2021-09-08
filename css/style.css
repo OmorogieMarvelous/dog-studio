@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "NewYork";
+    src: url("./fonts/NewYork.otf") format('opentype');
+    
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+width: 100%;
+height: 120vh;
+background-color: #231A3E;
+background-image: url(./images/dog1.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+}
+
+nav{
+    display: flex;
+    color: white;
+    height: 144px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav h1{
+    color: white;
+    font-size: 24px;
+}
+
+nav .showreel{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav .right-arrow{
+    width: 24px;
+    height: 24px;
+    background-image: url(./images/arrow1.png);
+    margin-right: 16px;
+    
+}
+
+nav .menu{
+    width: 24px;
+    height: 24px;
+    background-image: url(./images/menu.png);
+}
+
+
+.header-text-container{
+    width: 301px;
+    margin-left: 400px;
+}
+
+
+.header-text{
+    font-family: 'NewYork';
+    font-size: 92px;
+    color: white;
+
+    
+}
